@@ -11,6 +11,10 @@ use yii\db\ActiveRecord;
 /**
  * Class Author
  * @package app\models
+ * @property string $id [integer]
+ * @property string $first_name [varchar(255)]
+ * @property string $last_name [varchar(255)]
+ * @property string $alias [varchar(255)]
  */
 class Author extends ActiveRecord
 {

@@ -11,6 +11,11 @@ use yii\db\ActiveRecord;
 /**
  * Class Book
  * @package app\models
+ * @property string $id [integer]
+ * @property string $title [varchar(255)]
+ * @property string $description
+ * @property string $id_publisher [integer]
+ * @property string $id_shop [integer]
  */
 class Book extends ActiveRecord
 {

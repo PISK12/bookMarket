@@ -10,6 +10,9 @@ use yii\db\ActiveRecord;
 /**
  * Class File
  * @package app\models
+ * @property string $id [integer]
+ * @property string $name [varchar(255)]
+ * @property string $path [varchar(255)]
  */
 class File extends ActiveRecord
 {
